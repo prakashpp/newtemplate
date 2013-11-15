@@ -1,0 +1,68 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.login-logo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.login-popover {
+    background-color: rgba(237, 239, 241, 0.5);
+    min-height: 473px;
+    padding: 10% 10% 10% 10%;
+    margin-top: 10%;
+}
+
+.container-narrow {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+  .container-narrow > hr {
+    margin: 40px 0 0 0;
+  }
+
+.jumbotron {
+  margin: 5px 0;
+  background-color:white;
+}
+.jumbotron h1 {
+  font-size: 70px;
+  line-height: 1;
+  font-weight: bold;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.side-nav {
+    margin-left: -225px;
+    left: 225px;
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: #34495e;
+    overflow-y: auto;
+}
+.bg { 
+  background: url(../images/gulf.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background{
+  min-height: 590px;
+  background-color: #ecf0f1;
+}
+.center{
+  text-align: center;
+}
+
+.bg-color{
+  background-color: rgb(194, 194, 206)
+}
