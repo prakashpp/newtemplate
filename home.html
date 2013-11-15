@@ -48,8 +48,11 @@
               <li><a href="#">Party 3</a></li>
             </ul>
           </li>
+          <li class="hidden-phone">
+                <img src="https://secure.gravatar.com/avatar/ae41f3e136bbd391562510f7d53f0282?s=40" class="img-circle">
+          </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#">Profile</a></li>
               <li><a href="#">My Aircraft</a></li>
@@ -62,7 +65,7 @@
       </div><!-- /.navbar-collapse -->
     </nav>
 
-    <!--Side panel trial-->
+    <!--Side menu-->
 
     <div class="row">
       <div class="col-md-2">
@@ -72,7 +75,8 @@
             <div class="panel panel-inverse">
               <div class="panel-heading bg-color">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="glyphicon glyphicon-plane menu-icon"></i>
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <i class="glyphicon glyphicon-plane menu-icon"></i>
                     My Aircraft
                   </a>
                 </h4>
@@ -92,12 +96,13 @@
             <div class="panel panel-inverse">
               <div class="panel-heading bg-color">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i class="glyphicon glyphicon-list menu-icon"></i>
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <i class="glyphicon glyphicon-list menu-icon"></i>
                     Flight Logs
                   </a>
                 </h4>
               </div>
-              <div id="collapseTwo" class="panel-collapse collapse">
+              <div id="collapseTwo" class="panel-collapse collapse in">
                 <div class="panel-body">
                   Add Flight
                 </div>
@@ -112,7 +117,7 @@
             <div class="panel panel-inverse">
               <div class="panel-heading bg-color">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                     Dropbox
                   </a>
                 </h4>
@@ -128,15 +133,7 @@
   </div><!-- wrapper -->
 
   <!-- Load JS here for greater good =============================-->
-  <script src="js/jquery-1.8.3.min.js"></script>
-  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap-select.js"></script>
-  <script src="js/bootstrap-switch.js"></script>
-  <script src="js/flatui-checkbox.js"></script>
-  <script src="js/flatui-radio.js"></script>
-  <script src="js/jquery.tagsinput.js"></script>
-  <script src="js/jquery.placeholder.js"></script>
-</body>
+  </body>
 </html>
