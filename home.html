@@ -24,7 +24,7 @@
   <div id="wrapper">
     
     <!--Navigation-->
-    <nav class="navbar navbar-inverse" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -65,70 +65,91 @@
       </div><!-- /.navbar-collapse -->
     </nav>
 
-    <!--Side menu-->
 
+ <div class="container-fluid">
+   
+       <!--Side menu-->
     <div class="row">
-      <div class="col-md-2">
-          <div class="panel-group" id="accordion">
+   	     <div class="col-md-2">
+	          <div class="panel-group" id="accordion">
 
-            <!-- Panel 1: My Aircraft -->
-            <div class="panel panel-inverse">
-              <div class="panel-heading bg-color">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                  <i class="glyphicon glyphicon-plane menu-icon"></i>
-                    My Aircraft
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="panel-body">
-                  Aircraft 1
-                </div>
-                <div class="panel-body">
-                  Aircraft 2
-                </div>
-              </div>
+	            <!-- Panel 1: My Aircraft -->
+	            <div class="panel panel-inverse">
+                    <div class="panel-heading bg-color">
+                    <h4 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                      <i class="glyphicon glyphicon-plane menu-icon"></i>
+                      My Aircraft
+                      </a>
+                    </h4>
+                  </div>
+                  
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                    Aircraft 1
+                    </div>
+                    <div class="panel-body">
+                    Aircraft 2
+                    </div>
+                  </div>
+	          </div>
+	       <!-- END Panel 1 -->
+
+	       <!-- Panel 2: Flight logs -->
+	     <div class="panel panel-inverse">
+            <div class="panel-heading bg-color">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                <i class="glyphicon glyphicon-list menu-icon"></i>
+                Flight Logs
+                </a>
+              </h4>
             </div>
-            <!-- END Panel 1 -->
-
-            <!-- Panel 2: Flight logs -->
-            <div class="panel panel-inverse">
-              <div class="panel-heading bg-color">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <i class="glyphicon glyphicon-list menu-icon"></i>
-                    Flight Logs
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse in">
+             <div id="collapseTwo" class="panel-collapse collapse in">
                 <div class="panel-body">
-                  Add Flight
+                Add Flight
                 </div>
                 <div class="panel-body">
-                  Submit Flights
+                Submit Flights
                 </div>
-              </div>
-            </div>
-            <!-- END Panel 2: Flight logs -->
+             </div>
+	    </div>
+	    <!-- END Panel 2: Flight logs -->
 
-            <!-- Panel 3: Dropbox -->
-            <div class="panel panel-inverse">
-              <div class="panel-heading bg-color">
-                <h4 class="panel-title">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    Dropbox
-                  </a>
-                </h4>
-              </div>
-           </div>
-            <!-- END Panel 3: Dropbox -->
+	    <!-- Panel 3: Dropbox -->
+	    <div class="panel panel-inverse">
+          <div class="panel-heading bg-color">
+            <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Dropbox
+            </a>
+            </h4>
+          </div>
+      </div>
+	    <!-- ==========END Panel 3: Dropbox========= -->
+		
+  	</div><!-- panel group -->
+	</div><!-- End col-md-2-->
 
-        </div><!-- panel group -->
-      </div><!-- col-->
-    </div><!-- row-->
- 
+     <div class="col-md-10" role="main">
+
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-addon"style="background-color: rgb(194, 194, 206);"> 
+            <i class="glyphicon glyphicon-search menu-icon"></i></span>
+        </div>
+       <!-- Heading-->
+        <div class="bs-docs-section">
+          <div class="page-header">
+            <h1 id="overview">Aircraft</h1>
+          </div>
+          <p class="lead">Some dummy content to be displayed in this section.</p>    
+        </div>
+        
+     </div><!-- End col-md-10-->
+    
+    </div><!-- End row-->
+   </div><!-- End container fluid-->
 
   </div><!-- wrapper -->
 
