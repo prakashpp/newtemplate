@@ -96,58 +96,96 @@
 	       <!-- END Panel 1 -->
 
 	       <!-- Panel 2: Flight logs -->
-	     <div class="panel panel-inverse">
+         <div class="panel panel-inverse">
+              <div class="panel-heading bg-color">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <i class="glyphicon glyphicon-list menu-icon"></i>
+                  Flight Logs
+                  </a>
+                </h4>
+              </div>
+               <div id="collapseTwo" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                  Add Flight
+                  </div>
+                  <div class="panel-body">
+                  Submit Flights
+                  </div>
+               </div>
+        </div>
+	      <!-- END Panel 2: Flight logs -->
+
+        <!-- Panel 3: Dropbox -->
+        <div class="panel panel-inverse">
             <div class="panel-heading bg-color">
               <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                <i class="glyphicon glyphicon-list menu-icon"></i>
-                Flight Logs
-                </a>
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Dropbox
+              </a>
               </h4>
             </div>
-             <div id="collapseTwo" class="panel-collapse collapse in">
-                <div class="panel-body">
-                Add Flight
-                </div>
-                <div class="panel-body">
-                Submit Flights
-                </div>
-             </div>
-	    </div>
-	    <!-- END Panel 2: Flight logs -->
-
-	    <!-- Panel 3: Dropbox -->
-	    <div class="panel panel-inverse">
-          <div class="panel-heading bg-color">
-            <h4 class="panel-title">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-              Dropbox
-            </a>
-            </h4>
-          </div>
-      </div>
-	    <!-- ==========END Panel 3: Dropbox========= -->
+        </div>
+        <!-- ==========END Panel 3: Dropbox========= -->
 		
-  	</div><!-- panel group -->
-	</div><!-- End col-md-2-->
+    	</div><!-- panel group -->
+  	</div><!-- End col-md-2-->
 
-     <div class="col-md-10" role="main">
+    <div="row">
+      <div class="col-md-10" role="main">
+              
+        <!-- Search Box-->
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon"style="background-color: rgb(194, 194, 206);"> 
+                  <i class="glyphicon glyphicon-search menu-icon"></i>
+                </span>
+              </div>
 
-        <div class="input-group">
-          <input type="text" class="form-control">
-          <span class="input-group-addon"style="background-color: rgb(194, 194, 206);"> 
-            <i class="glyphicon glyphicon-search menu-icon"></i></span>
-        </div>
-       <!-- Heading-->
-        <div class="bs-docs-section">
-          <div class="page-header">
-            <h1 id="overview">Aircraft</h1>
-          </div>
-          <p class="lead">Some dummy content to be displayed in this section.</p>    
-        </div>
-        
-     </div><!-- End col-md-10-->
-    
+            <!-- Heading-->
+             <div class="bs-docs-section">
+                <div class="page-header">
+                  <h1 id="overview">Aircraft</h1>
+                </div>
+              </div>
+
+              <!-- Breadcrumb-->
+              <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Aircraft</a></li>
+              </ol>
+              <!-- End Breadcrumb-->  
+
+            <!-- This section is to display no. of aircrafts-->
+           <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail bg-color">
+                  <p class="centre">
+                    <img src="images/logo.jpg" alt="N12345" class="img-thumbnail">
+                    </p>
+                    <div class="caption">
+                    <h3>N12345</h3>
+                    <p><a href="#" class="btn btn-info" role="button">Users</a> <a href="#" class="btn btn-danger" role="button">
+                     <i class="glyphicon glyphicon-plus menu-icon"></i>Add Flight</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail bg-color">
+                  <p class="centre">
+                    <img src="images/logo.jpg" alt="..." class="img-thumbnail">
+                     </p>
+                     <div class="caption">
+                     <h3>N23456</h3>
+                     <p><a href="#" class="btn btn-info" role="button">Users</a> <a href="#" class="btn btn-danger" role="button">
+                      <i class="glyphicon glyphicon-plus menu-icon"></i>Add Flight</a></p>
+                  </div>
+                </div>
+              </div>
+          </div><!-- End row-->   
+                            
+        </div><!-- End col-md-10-->
+      </div><!-- End row-->
     </div><!-- End row-->
    </div><!-- End container fluid-->
 
